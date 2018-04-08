@@ -1,20 +1,97 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
 
+body {
+	margin: 0px 0px 0px 0px;
+}
+
+#recipiente {
+	background-image: linear-gradient(#f6f1b2, #4599b2);
+	box-sizing: border-box;
+	width: 800px;
+	margin-left: auto;
+  	margin-right: auto;
+  	position: relative;
+  	border: 1px solid #d3d3d3;
+}
+
+#cabecalho {
+	margin-left: 154px;
+}
+
 h1 {
 	font-family: Ravie;
 	font-size: 36px;
 	color: #e90c0c;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 17px;
 }
 
-div#cabecalho h2 {
+#cabecalho h2 {
 	font-family: Trebuchet MS;
 	font-size: 24px;
 	color: #333;
+	margin: 0px 90px 0px 0px;
+	float: right;
 }
 
 strong {
 	color: #d027aa;
+}
+
+#conteudo {
+	position: relative;
+	height: 688px;
+}
+
+#lateral {
+	box-sizing: border-box;
+	width: 154px;
+	height: 705px;
+	position: relative;
+	top: -48px;
+}
+
+#siri-feliz {
+	position: absolute;
+	top: 0px;
+	left: -10px;
+}
+
+#lateral h2 {
+	font-family: Verdana;
+	font-size: 48px;
+	font-weight: bold;
+	color: #333;
+	transform: rotate(270deg);
+	position: absolute;
+	top: 200px;
+	right: 5px;
+}
+
+#bolhas-ar {
+	position: absolute;
+	top: 400px;	
+}
+
+#peixe-feliz {
+	position: absolute;
+	top: 594px;
+	left: -44px;
+}
+
+#cardapio {
+	box-sizing: border-box;
+	background-color: #fff, alpha 20%;
+	border: 1px solid #aac0ae;
+	position: absolute;
+	top: 27px;
+	left: 154px;
+	height: 502px;
+	width: 644px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 h3 {
@@ -24,13 +101,30 @@ h3 {
 	color: #333;
 }
 
-div#lateral h2 {
+.espacamento-duplo {
 	font-family: Verdana;
-	font-size: 48px;
-	font-weight: bold;
+	font-size: 14px;
 	color: #333;
+	line-height: 2em;
 }
 
-main {
-	background: linear-gradient(#f6f1b2, #4599b2);
+span {
+	float: right;
+}
+
+#rodape {
+	position: absolute;
+	top: 650px;
+	left: 690px;
+}
+
+#ticket {
+	position: fixed;
+	top: 295px;
+	left: -69px;
+	transition: left 100ms ease-out;
+}
+
+#ticket:hover {
+  left: 0;
 }
