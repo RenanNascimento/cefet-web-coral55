@@ -9,6 +9,7 @@ body {
 	background-image: linear-gradient(#f6f1b2, #4599b2);
 	box-sizing: border-box;
 	width: 800px;
+	height: 722px;
 	margin-left: auto;
   	margin-right: auto;
   	position: relative;
@@ -29,7 +30,7 @@ h1 {
 }
 
 #cabecalho h2 {
-	font-family: Trebuchet MS;
+	font-family: "Trebuchet MS";
 	font-size: 24px;
 	color: #333;
 	margin: 0px 90px 0px 0px;
@@ -42,13 +43,13 @@ strong {
 
 #conteudo {
 	position: relative;
-	height: 688px;
+	height: 655px;
 }
 
 #lateral {
 	box-sizing: border-box;
 	width: 154px;
-	height: 705px;
+	height: 705px; /* min: 632.7+67+5.3 */
 	position: relative;
 	top: -48px;
 }
@@ -67,12 +68,13 @@ strong {
 	transform: rotate(270deg);
 	position: absolute;
 	top: 200px;
-	right: 5px;
+	left: -20.35px;
 }
 
 #bolhas-ar {
 	position: absolute;
 	top: 400px;	
+	left: 42px;
 }
 
 #peixe-feliz {
@@ -83,7 +85,7 @@ strong {
 
 #cardapio {
 	box-sizing: border-box;
-	background-color: #fff, alpha 20%;
+	background: rgba(255,255,255,0.2);
 	border: 1px solid #aac0ae;
 	position: absolute;
 	top: 27px;
@@ -114,8 +116,10 @@ span {
 
 #rodape {
 	position: absolute;
-	top: 650px;
+	height: 116px;
+	top: 652px;
 	left: 690px;
+	bottom: 100px;
 }
 
 #ticket {
