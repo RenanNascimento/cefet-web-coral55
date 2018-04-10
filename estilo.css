@@ -1,6 +1,16 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
 
+@font-face {
+	font-family: Verdana;
+	src: url("fonts/Verdana.ttf");
+}
+
+@font-face {
+	font-family: "Trebuchet MS";
+	src: url("fonts/Trebuchet MS.ttf");
+}
+
 body {
 	margin: 0px 0px 0px 0px;
 }
@@ -30,7 +40,7 @@ h1 {
 }
 
 #cabecalho h2 {
-	font-family: "Trebuchet MS";
+	font-family: "Trebuchet MS", sans-serif;
 	font-size: 24px;
 	color: #333;
 	margin: 0px 90px 0px 0px;
@@ -61,7 +71,7 @@ strong {
 }
 
 #lateral h2 {
-	font-family: Verdana;
+	font-family: Verdana, sans-serif;
 	font-size: 48px;
 	font-weight: bold;
 	color: #333;
@@ -97,14 +107,14 @@ strong {
 }
 
 h3 {
-	font-family: Verdana;
+	font-family: Verdana, sans-serif;
 	font-size: 18px;
 	font-weight: bold;
 	color: #333;
 }
 
 .espacamento-duplo {
-	font-family: Verdana;
+	font-family: Verdana, sans-serif;
 	font-size: 14px;
 	color: #333;
 	line-height: 2em;
